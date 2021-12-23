@@ -372,5 +372,5 @@ dispatcher.add_handler(ConversationHandler(
 
 ))
 
-updater.start_polling()
+updater.start_polling(timeout=600)
 updater.idle()
